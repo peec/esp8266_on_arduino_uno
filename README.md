@@ -9,14 +9,19 @@ See the sub folders in this repository for test scripts.
 1. Connects to a WIFI AP, and gets IP address. Configure the vars for your needs.
 2. When button on INPUT PIN 2 is pressed, a HTTP request is sent to google.
 
+### Wiring Diagram
+
+![Wire Diagram](/images/wire_diagram.png)
+
 
 ## Where to buy the chip?
 
 Ebay, really cheap - like 3 $.
 
 
-
 ## ESP8266 Diagram
 
-![ESP8266 Diagram](/images/ESP8266.jpg)
+![ESP8266 Diagram](/images/diagram.jpg)
+
+
 
