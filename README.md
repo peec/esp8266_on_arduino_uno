@@ -4,7 +4,7 @@ This repository contains my ESP8266 working with a Arduino UNO.
 
 See the sub folders in this repository for test scripts.
 
-## The wifi.ino script
+## The wificlient/wificlient.ino script
 
 1. Connects to a WIFI AP, and gets IP address. Configure the vars for your needs.
 2. When button on INPUT PIN 2 is pressed, a HTTP request is sent to google.
@@ -17,6 +17,19 @@ This is the complete wiring diagram using the "wifi/wifi.ino" script. Just follo
 
 - The resistor can be any resitor, I use a 1K resistor. The resistor is needed because we have a direct positive to negative when button is pushed.
 - Connecting the ESP8266, you see that we use a total of 5 Connection points on the chip. RX, TX, GND, VCC and CH_PD. Both VCC and CH_PD connects to +3.3V. RX to input 11, TX to input 12 and GND to .. GND.
+
+
+## The wifiserver/wifiserver.ino script
+
+1. Connects to a WIFI AP, and gets IP address.
+2. You can then go to the IP via browser and see the "OK" message.
+3. See the webserver() method for interesting things.
+
+
+
+### Wiring Diagram
+
+Use the same as wificlient, but you dont need the button.
 
 
 ## Where to buy the ESP8266 chip?
